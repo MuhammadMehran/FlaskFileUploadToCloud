@@ -12,7 +12,6 @@ from flask_login import (
 )
 from oauthlib.oauth2 import WebApplicationClient
 import requests
-import cloudstorage as gcs
 from google.cloud import storage
 from werkzeug.utils import secure_filename
 
