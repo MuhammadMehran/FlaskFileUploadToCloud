@@ -1,0 +1,83 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+
+      <a class="nav-brand" href="/">Flask APP</a>
+
+      <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+            class="navbar-toggler-icon"></i></span></button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+        <ul class="navbar-nav mr-auto">
+      
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">{{ user_name }}</a>
+            </li>
+            
+            <li><img class="rounded-circle" style="display: inline-block;height:40px" src="{{ user_img }}" alt="logo" /></li>
+            <li class="nav-item"><a class="nav-link" href="/logout">Logout <span class="fa fa-sign-out"></span></a></li>
+
+            
+        </ul>
+      </div>
+
+    </nav>
+
+
+    {% if msg==1 %}
+
+        <div class="alert alert-success">
+            <strong>Success!</strong> File Uploaded SuccessFully
+        </div>
+    {% elif msg==0 %}
+
+        <div class="alert alert-danger">
+            <strong>Failed!</strong> File not Uploaded 
+        </div>
+
+    {% endif %}
+
+    <div class="container mt-3">
+        <h2>Upload File</h2>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <div class="input-group">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" name="customFile" id="customFile">
+                    <label class="custom-file-label" for="customFile">Choose file</label>
+                </div>
+            </div>
+            <br/>
+            <button type="submit" class="btn btn-success form-control">Submit</button>
+        </form>
+
+
+            
+    </div>
+
+    <script>
+        $(".custom-file-input").on("change", function() {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+    </script>
+    
+</body>
+</html>
