@@ -20,8 +20,8 @@ from db import init_db_command
 from user import User
 
 # Google Oauth Credentials
-GOOGLE_CLIENT_ID = "791614406811-s78amjiup8smsgpsfs6aq8fcu11ek1pl.apps.googleusercontent.com"
-GOOGLE_CLIENT_SECRET = "YRoMO9qK_ybGjx0eS4EZCurM"
+GOOGLE_CLIENT_ID = "710459982991-sl0sb3n3kl0s8abqe66f1ss3dt0fpgam.apps.googleusercontent.com"
+GOOGLE_CLIENT_SECRET = "ygagrMcKZcLKKD4f_wobLntU"
 
 
 GOOGLE_DISCOVERY_URL = (
@@ -52,9 +52,9 @@ client = WebApplicationClient(GOOGLE_CLIENT_ID)
 
 # Bucket Setup
 bucket_client = storage.Client()
-bucket = bucket_client.get_bucket('dojo-test-instance-transient')
+bucket = bucket_client.get_bucket('hd-fyp-test.appspot.com')
 
-bucket_name = 'dojo-test-instance-transient'
+bucket_name = 'hd-fyp-test.appspot.com'
 
 @login_manager.user_loader
 def load_user(user_id):
