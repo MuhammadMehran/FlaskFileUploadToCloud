@@ -52,9 +52,9 @@ client = WebApplicationClient(GOOGLE_CLIENT_ID)
 
 # Bucket Setup
 bucket_client = storage.Client()
-bucket = bucket_client.get_bucket('hd-fyp-test.appspot.com')
+bucket = bucket_client.get_bucket('dogoo123')
 
-bucket_name = 'hd-fyp-test.appspot.com'
+bucket_name = 'dogoo123'
 
 @login_manager.user_loader
 def load_user(user_id):

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "maplearning-207023",
+  "private_key_id": "11935edad2449623552d748437527914da3d50ba",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCcb62mYjwyA0l1\na4rvsYdQLdVUHaZ+T60BEVIBajyDfk4jhynQg6UrLFTw9w7ern3g3PZm/oSA9/cE\nPPz/AAfbrPwgHqyd39Sz32C2ovD6VOazg2QbD4xD12J1VHcJ9nIcIBbjq6i0Uq9m\n/DGXbsb9hXIcLU4HvxqZiD9dINP70vUc4OsAKvlTESKBPBqXMt6ICeTC6MPuhnSx\nqc7CeO1MLOuGiO0cKndGo41cqen1UlEJzAVBXAod7Mkjwaqbd/H4bfTDyL+xYBHg\nvl7GmXkUI1UDeOfKsbcrz1KYYtcKLJckuazlTU2RSdP1DPx+FJGve6bFvwOkft7q\nGi6Ujy/LAgMBAAECggEAQSymBDPZMFz+NdVgRQyJe3Yc8raHrwgy48b7i2tfWsk8\ndMDTQvQV1C7cFKhZoZzBBPYKEk7nlXO5jiJ6pSK2I2emgxtEf2HJlEb0XCL2ktTc\naN3MzxljLsCFXKycC6KJV/5miuPxnW71dMqNPrIAZY87Q1H8uG19/4ksHPiYWMmb\n6lfCnKtG31cVi5VaselzSWZof5oHChAsiS4uZuE3Rpi4Lxg0sExnmj78sRKkETs6\nwzEFqCGAOMVXityOytXT+bopD+c5cqVA7MfzGFgRuC/8VeeYGee96EXSj4S5NTSg\ngvZevWWINZvuUtKoABd++sNM54iPTvV3wJNuN9kOwQKBgQDX5P4izjYp2LBD04tk\n1MzykkDTpukV8+gW6kWJqkYwepKdOflKi7rXLGvkE+dOle+lVPNPVroyo6xoPElB\n2hikW1F2dT0TM+0hXubKraRv1S6zjD5dqIYs4RdomKgSH2kecKfs7AaG5oUdQbFL\nDcWS0x7sxrHn+9RUuC5V7Y3AJQKBgQC5fxu9ukOvWbHBxpDF5JAG755x4zHMF/Qw\nFjLrQ2fvYB3hUK7NdrLCBLQbvq2OgpIJtJYFado+cPkxkpk/NP2BORGqirLj0/HR\ngpV/ivBKkyw+Zp1+MXkZexArzigMTlGOiMzzxLs1uTS83OcuJm5beUGTt0r//FRe\nVYUY+lh1LwKBgFY0+Ql64APbo56hxQJxOpkNr1cUSfRbHWyxBS1QUZCgERU5BgMv\nQl8TPM2o6O7nTfbtse4XSmhYFMrWb8YcyUQvtpqfe9DEJkbx9yQtLAD/1hMZx/ls\nBo+7HbbFZi8+XaIrB9LB+GU7fSHOjnXSvPbA2JNhT767PvDJTq8/GSAFAoGAW5m8\nLj3L7MyDLiiLF14eDX7IpH7H+XwetpxPusPHkHrLZpd8KrQh5BOEiWros8YgrbBC\noRu7jTgmpmc5S/Az+1seMTRa0Iy6DnbIsnn+3SS+JXZw8X8myQFvY+Ji/miyd4tw\ngjQ1Kntx4o3Hj4+k0YEYdASAgdauJwNePY5qnjsCgYBHQHHvWmVFPy3gD2W3BKTL\nwS6J7cMR9mLZbGDG9oqHvoNCZuMsbXdSsoD62B9Q5gtN3Oj2CMzoM72iaJLOXUxe\nLMgUHmv2CJjtwoaUHSx0qpOzCSC/mU99HXQ2G2CjLyjaLHiQMDIYiD+6nkEK9W/6\nyiLwW3LkiO92LsA1V8IKfQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "codelab@maplearning-207023.iam.gserviceaccount.com",
+  "client_id": "116596802761027641931",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/codelab%40maplearning-207023.iam.gserviceaccount.com"
+}
